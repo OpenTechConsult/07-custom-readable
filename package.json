@@ -1,0 +1,35 @@
+{
+  "name": "07-custom-readable",
+  "version": "1.0.0",
+  "description": "Demonstrate how to implement a new Readable stream",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "engineStrict": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpenTechConsult/07-custom-readable.git"
+  },
+  "keywords": [
+    "streams",
+    "readable",
+    "node",
+    "javascript",
+    "custom"
+  ],
+  "author": "Elom Atsou Agboka <opentech.consult@gmail.com> (https://github.com/OpenTechConsult)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OpenTechConsult/07-custom-readable/issues"
+  },
+  "homepage": "https://github.com/OpenTechConsult/07-custom-readable#readme",
+  "dependencies": {
+    "chance": "^1.1.8"
+  }
+}
